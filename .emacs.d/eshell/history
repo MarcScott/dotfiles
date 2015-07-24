@@ -1,0 +1,108 @@
+ls
+mv Downloads/7D_Computing_report.csv ~/.
+ls
+cd Downloads/
+ls
+ls -al
+ls | less
+mv 7A_Computing_report.csv ~/.
+ls
+cd ..
+ls
+mv ../CompTargets.txt ./.
+ls
+python3 FinalReports.py 
+python3 FinalReports.py 
+python3 FinalReports.py 
+homeMonitor
+python3 FinalReports.py 
+python3 FinalReports.py 
+cat 7D_Comp.txt
+python3 FinalReports.py 
+python3 FinalReports.py 
+python3 FinalReports.py 
+python3
+ls
+cd ..
+ls
+ls
+owd
+pwd
+sudo apt-get update
+cd SummerReports/
+python3 FinalReports.py 
+python3 FinalReports.py 
+cd SummerReports/
+ls
+python3 FinalReportsSys.py
+Welcome to the Emacs shell
+python3 FinalReportsSys.py
+python3 FinalReports.py
+python3 FinalReports.py
+python3 FinalReports.py
+python3 FinalReports.py
+cd Mail/
+ls
+cd FastMail/
+ls
+cd INBOX
+ls
+cd ..
+ping www.google.com
+ping irc.freenode.net
+mutt
+ls
+python3 FinalReports.py
+python3 FinalReports.py
+python3 FinalReports.py
+python3 FinalReports.py
+python3 FinalReports.py
+ls
+mv ~/Downloads/9D_Computing_report.csv ./.
+ls
+python3 FinalReports.py
+cd SummerReports/
+python3 FinalReportsSys.py
+python3 FinalReportsSys.py
+python3 FinalReportsSys.py
+python3 FinalReportsSys.py
+python3 FinalReportsSys.py
+mkdir TreasureHunt
+cd TreasureHunt/
+ls
+touch README.txt
+'Hello' > README.txt 
+echo 'Hello' > README.txt 
+cat README.txt 
+echo 'Welcome to the CLI Treasure Hunt' > README.txt
+echo 'Your first task is to find a file called 1_Clue.txt' >> README.txt 
+cd ~/Desktop/
+ls
+mv test1.mkv /dev/libpinger
+sudo mv test1.mkv /dev/libpinger
+sudo mv test2.mkv /dev/libpinger2
+ls
+cat ~/.bashrc
+cat ~/.bash_history 
+echo '' > ~/.bash_history 
+exit()
+cd ../../../7-CS-ESafety/source/css/
+lessc styles.less styles.css 
+lessc styles.less styles.css 
+lessc styles.less styles.css 
+lessc styles.less styles.css 
+lessc styles.less styles.css 
+lessc styles.less styles.css 
+cd ../..
+gup
+sudo ifdown -a && sudo ifup -a
+rainbowstream
+ls
+mutt
+pass -c Email/coding2learn.org
+pass -c Twitter/coding2learn
+pass
+pass generate Social/tpo 15
+pass Entertainment/Netflix
+pass -c Shopping/Amazon
+pass -c Email/coding2learn.org

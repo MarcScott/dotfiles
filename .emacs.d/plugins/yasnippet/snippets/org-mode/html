@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: html
+# key: html
+# --
+#+begin_html
+$0
+#+end_html
