@@ -30,6 +30,7 @@ exec synclient MaxTapTime=0
 exec synclient VertEdgeScroll=0
 exec synclient PalmDetect=1
 
+
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
