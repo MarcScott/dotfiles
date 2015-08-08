@@ -1,12 +1,4 @@
 ls
-mv Downloads/7D_Computing_report.csv ~/.
-ls
-cd Downloads/
-ls
-ls -al
-ls | less
-mv 7A_Computing_report.csv ~/.
-ls
 cd ..
 ls
 mv ../CompTargets.txt ./.
@@ -106,3 +98,31 @@ pass generate Social/tpo 15
 pass Entertainment/Netflix
 pass -c Shopping/Amazon
 pass -c Email/coding2learn.org
+ls
+cd ..
+ls
+cd /sys/class/
+ls
+cd powercap/
+ls
+cd ..
+ls
+cd power_supply/
+ls
+cd BAT1/
+ls
+cd ..
+ls
+cd ACAD/
+ls
+cd ..
+ls
+cd BAT1/
+ls
+pwd
+cd ~/
+ls
+ll
+ls -al
+cd .i3/
+ls

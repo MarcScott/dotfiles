@@ -7,7 +7,7 @@
 (add-to-list 'load-path "~/.emacs.d/lisp")
 (add-to-list 'load-path "~/.emacs.d/elpa")
 (add-to-list 'load-path "~/.emacs.d/themes")
-
+(load-theme 'tango-dark t)
 
 (require 'package)
 (require 'google-maps)
@@ -27,7 +27,7 @@
 (global-visual-line-mode t)
 
 ;;;; Python settings to use Python 3
-(setq python-shell-interpreter "/usr/local/bin/python3")
+(setq python-shell-interpreter "/usr/bin/python3")
 
 ;;;;Add settings for web-mode to make it the default for HTML editing etc
 (require 'web-mode)
@@ -113,12 +113,13 @@ STDERR with `org-babel-eval-error-notify'."
               (org-babel-eval-error-notify exit-code (buffer-string)))
             nil)
         (buffer-string)))))
+
 (autoload 'markdown-mode "markdown-mode"
    "Major mode for editing Markdown files" t)
 (add-to-list 'auto-mode-alist '("\\.text\\'" . markdown-mode))
 (add-to-list 'auto-mode-alist '("\\.markdown\\'" . markdown-mode))
 (add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
-
+(add-hook 'markdown-mode-hook (lambda () (define-key markdown-mode-map (kbd "TAB") 'self-insert-command)))
 (add-to-list 'load-path
               "~/.emacs.d/plugins/yasnippet")
 (require 'yasnippet)
@@ -177,3 +178,13 @@ STDERR with `org-babel-eval-error-notify'."
 
 ;;MobileOrg
 (setq org-mobile-directory "~/Dropbox/org/MobileOrg")
+
+;;Tabs
+(setq tab-width 4)
+(setq tab-stop-list (number-sequence 4 200 4))
+(setq indent-tabs-mode nil)
+;(setq-default indent-tabs-mode nil)
+;(setq-default tab-width 4)
+;(setq indent-line-function 'insert-tab)
+
+

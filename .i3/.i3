@@ -1,0 +1,1 @@
+/home/coding2learn/dotfiles/.i3
