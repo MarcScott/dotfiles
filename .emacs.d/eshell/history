@@ -1,128 +1,128 @@
+cd ~/
+ssh pi@192.168.0.115
+ls
+ls
+pandoc -t native sample.md 
+pandoc -t native sample.md 
+pandoc -t native sample.md 
+pandoc -f markdown -t html --filter ./linkstohtml.py 
+ll
+ls
+cat linkstohtml.py 
+cat sample.md 
+pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
+pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
+pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
+cat sampl.html
+rm sampl.html
+ll
+ls
+pandoc -t native sample.md 
+pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
+pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
+pandoc -t native sample.md 
+pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
+pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
+pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
+pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
+pandoc -t native sample.md 
+pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
+pandoc -t native sample.md 
+pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
+pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
+pandoc -t native sample.md 
+pandoc -t json sample.md 
+pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
+pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
+pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
+pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
+pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
+pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
+pandoc -t json sample.md 
+pandoc -t native sample.md 
+pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
+pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
+pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
+pandoc -s worksheet.md -o worksheet.html -c style.css --filter ../linkstohtml.py
+pandoc -s worksheet.md -o worksheet.html -c style.css --filter ../linkstohtml.py -B ../header.html 
+ls
+pandoc -s worksheet.md -o worksheet.html -c style.css --filter ../linkstohtml.py -B ../header.html 
+pandoc -s worksheet.md -o worksheet.html -c style.css --filter ../linkstohtml.py -B ../header.html 
+pandoc -s worksheet.md -o worksheet.html -c style.css --filter ../linkstohtml.py -B ../header.html 
+pandoc -s worksheet.md -o worksheet.html -c style.css --filter ../linkstohtml.py -B ../header.html 
+pandoc -s worksheet.md -o worksheet.html -c style.css --filter ../linkstohtml.py -B ../header.html 
+pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../header.html 
+pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../header.html 
+pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../header.html 
+pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../header.html --html5 --section-divs
+pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../header.html --section-divs
+pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../header.html
+pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../header.html --section-divs -5
+pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../header.html --section-divs --html5
+pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../header.html --section-divs -t html5
+pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../header.html --section-divs -t html5
+pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../header.html -t html5
+pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../extra.html --H ../header.html t html5
+pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../extra.html -H ../header.html t html5
+pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../extra.html -H ../header.html -t html5
+pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../extra.html -H ../header.html -t html5
+pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../extra.html -H ../header.html -t html5
+pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../extra.html -H ../header.html -t html5
+pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../extra.html -H ../header.html -t html5
+pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../extra.html -H ../header.html -t html5
+pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../extra.html -H ../header.html -t html5
+pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../extra.html -H ../header.html -t html5
+pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../extra.html -H ../header.html -t html5
+pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../extra.html -H ../header.html -t html5
+pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../extra.html -H ../header.html -t html5
+pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../extra.html -H ../header.html -t html5
+echo 'pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../extra.html -H ../header.html -t html5' >> ~/stringForPandoc.txt 
+cat ~/stringForPandoc.txt 
+pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../extra.html -H ../header.html -t html5 -A ../footer.html 
+echo 'pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../extra.html -H ../header.html -t html5 -A ../footer.html' > ~/stringForPandoc.txt 
+cat ~/stringForPandoc.txt 
+ls
+mkdir modelling-the-iss
+ls
+cd RPi_tech/
 ls
 cd ..
+cd RPi_learning/
 ls
-mv ../CompTargets.txt ./.
+cp -r teach-resource-template/ model-ISS
 ls
-python3 FinalReports.py 
-python3 FinalReports.py 
-python3 FinalReports.py 
-homeMonitor
-python3 FinalReports.py 
-python3 FinalReports.py 
-cat 7D_Comp.txt
-python3 FinalReports.py 
-python3 FinalReports.py 
-python3 FinalReports.py 
+ls
+rm data.csv 
+ls
+python3 log_humidity.py
+exit
+cd ../..
+ls
+cd model-ISS/
+git add --all .
+git commit -am 'humidity lesson'
+git push origin master
+cat /etc/wpa_supplicant/wpa_supplicant.conf 
+python3
+python3
+31.4
+ls
+cd resources_experiments/magic-8-ball/
+ls
+ls
+git remote set-url git@github.com:MarcScott/magic-8-ball.git
+git remote -v
+git remote set-url origin git@github.com:MarcScott/magic-8-ball.git
+git remote -v
+git commit -am 'update'
+git push origin master
+ls
+cd images/
+ls
 python3
 ls
-cd ..
+rm Patch.html Patch.org 
 ls
+cd patch/
 ls
-owd
-pwd
-sudo apt-get update
-cd SummerReports/
-python3 FinalReports.py 
-python3 FinalReports.py 
-cd SummerReports/
-ls
-python3 FinalReportsSys.py
-Welcome to the Emacs shell
-python3 FinalReportsSys.py
-python3 FinalReports.py
-python3 FinalReports.py
-python3 FinalReports.py
-python3 FinalReports.py
-cd Mail/
-ls
-cd FastMail/
-ls
-cd INBOX
-ls
-cd ..
-ping www.google.com
-ping irc.freenode.net
-mutt
-ls
-python3 FinalReports.py
-python3 FinalReports.py
-python3 FinalReports.py
-python3 FinalReports.py
-python3 FinalReports.py
-ls
-mv ~/Downloads/9D_Computing_report.csv ./.
-ls
-python3 FinalReports.py
-cd SummerReports/
-python3 FinalReportsSys.py
-python3 FinalReportsSys.py
-python3 FinalReportsSys.py
-python3 FinalReportsSys.py
-python3 FinalReportsSys.py
-mkdir TreasureHunt
-cd TreasureHunt/
-ls
-touch README.txt
-'Hello' > README.txt 
-echo 'Hello' > README.txt 
-cat README.txt 
-echo 'Welcome to the CLI Treasure Hunt' > README.txt
-echo 'Your first task is to find a file called 1_Clue.txt' >> README.txt 
-cd ~/Desktop/
-ls
-mv test1.mkv /dev/libpinger
-sudo mv test1.mkv /dev/libpinger
-sudo mv test2.mkv /dev/libpinger2
-ls
-cat ~/.bashrc
-cat ~/.bash_history 
-echo '' > ~/.bash_history 
-exit()
-cd ../../../7-CS-ESafety/source/css/
-lessc styles.less styles.css 
-lessc styles.less styles.css 
-lessc styles.less styles.css 
-lessc styles.less styles.css 
-lessc styles.less styles.css 
-lessc styles.less styles.css 
-cd ../..
-gup
-sudo ifdown -a && sudo ifup -a
-rainbowstream
-ls
-mutt
-pass -c Email/coding2learn.org
-pass -c Twitter/coding2learn
-pass
-pass generate Social/tpo 15
-pass Entertainment/Netflix
-pass -c Shopping/Amazon
-pass -c Email/coding2learn.org
-ls
-cd ..
-ls
-cd /sys/class/
-ls
-cd powercap/
-ls
-cd ..
-ls
-cd power_supply/
-ls
-cd BAT1/
-ls
-cd ..
-ls
-cd ACAD/
-ls
-cd ..
-ls
-cd BAT1/
-ls
-pwd
-cd ~/
-ls
-ll
-ls -al
-cd .i3/
-ls
+emacs README.org

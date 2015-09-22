@@ -21,7 +21,7 @@
 (setq inhibit-startup-message t)
 
 ;;Default face size for Retina displays
-(set-face-attribute 'default nil :height 200)
+(set-face-attribute 'default nil :height 140)
 
 ;;;;Wrap lines
 (global-visual-line-mode t)

@@ -1,4 +1,4 @@
-;; -*- emacs-lisp -*- <15/06/26 11:01:25 /home/marc/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <15/09/14 11:37:52 /home/coding2learn/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
 ;; You can delete it, forcing Tramp to reapply the checks.
 
@@ -39,4 +39,42 @@
   ("perl-cwd-realpath" t)
   ("perl" "\\perl")
   ("ls" "/bin/ls --color=never")
-  ("ls-dired" t)))
+  ("ls-dired" t))
+ (["ssh" "pi" "192.168.0.164" nil nil]
+  ("uname" "Linux 3.18.11-v7+")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("locale" "LC_ALL=C")
+  ("~" "/home/pi")
+  ("file-exists" "test -e")
+  ("ls" "/bin/ls --color=never")
+  ("ls-dired" t)
+  ("stat" "\\stat")
+  ("id" "/usr/bin/id")
+  ("gid-integer" 1000)
+  ("readlink" "\\readlink")
+  ("gid-string" "pi")
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl"))
+ (["ssh" "pi" "192.168.1.91" nil nil]
+  ("uname" "Linux 4.1.6-v7+")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("locale" "LC_ALL=C")
+  ("~" "/home/pi")
+  ("file-exists" "test -e")
+  ("ls" "/bin/ls --color=never")
+  ("ls-dired" t)
+  ("stat" "\\stat")
+  ("id" "/usr/bin/id")
+  ("gid-integer" 1000)
+  ("readlink" "\\readlink")
+  ("gid-string" "pi")
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")))

@@ -30,7 +30,7 @@ exec synclient MaxTapTime=0
 exec synclient VertEdgeScroll=0
 exec synclient PalmDetect=1
 exec --no-startup-id feh --bg-fill ~/Wallpapers/Wallpaper.png
-
+exec xrandr --output eDP1 --mode 1920x1080
 # Use Mouse+$mod to drag floating windows to their wanted position
 #floating_modifier $mod
 
@@ -159,7 +159,7 @@ bindsym $mod+r mode "resize"
 bar {
 	output eDP1
         status_command i3status
-	font pango:DejaVu Sans Mono, Icons 24
+	font pango:DejaVu Sans Mono, Icons 12
 }
 
 bar {
