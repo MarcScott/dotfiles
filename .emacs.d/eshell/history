@@ -1,128 +1,128 @@
+ls
+git clone git@github.com:raspberrypilearning/sense-hat-marble-maze.git
+mv sense-games-progression/marble-maze.py sense-hat-marble-maze/.
+ls
+cd sense-hat-marble-maze/
+l
+ls
+git add --all .
+git commit -am 'code finished'
+git push origin master
 cd ~/
-ssh pi@192.168.0.115
 ls
+cd Resources/
 ls
-pandoc -t native sample.md 
-pandoc -t native sample.md 
-pandoc -t native sample.md 
-pandoc -f markdown -t html --filter ./linkstohtml.py 
-ll
+ls sense-hat-marble-maze/
+cp -r flappy-astronaut/* sense-hat-marble-maze/.
 ls
-cat linkstohtml.py 
-cat sample.md 
-pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
-pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
-pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
-cat sampl.html
-rm sampl.html
-ll
+cd sense-hat-marble-maze/
 ls
-pandoc -t native sample.md 
-pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
-pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
-pandoc -t native sample.md 
-pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
-pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
-pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
-pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
-pandoc -t native sample.md 
-pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
-pandoc -t native sample.md 
-pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
-pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
-pandoc -t native sample.md 
-pandoc -t json sample.md 
-pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
-pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
-pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
-pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
-pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
-pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
-pandoc -t json sample.md 
-pandoc -t native sample.md 
-pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
-pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
-pandoc -s sample.md -o sampl.html --filter ./linkstohtml.py 
-pandoc -s worksheet.md -o worksheet.html -c style.css --filter ../linkstohtml.py
-pandoc -s worksheet.md -o worksheet.html -c style.css --filter ../linkstohtml.py -B ../header.html 
+mv marble-maze.py code/.
+cd code/
 ls
-pandoc -s worksheet.md -o worksheet.html -c style.css --filter ../linkstohtml.py -B ../header.html 
-pandoc -s worksheet.md -o worksheet.html -c style.css --filter ../linkstohtml.py -B ../header.html 
-pandoc -s worksheet.md -o worksheet.html -c style.css --filter ../linkstohtml.py -B ../header.html 
-pandoc -s worksheet.md -o worksheet.html -c style.css --filter ../linkstohtml.py -B ../header.html 
-pandoc -s worksheet.md -o worksheet.html -c style.css --filter ../linkstohtml.py -B ../header.html 
-pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../header.html 
-pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../header.html 
-pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../header.html 
-pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../header.html --html5 --section-divs
-pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../header.html --section-divs
-pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../header.html
-pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../header.html --section-divs -5
-pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../header.html --section-divs --html5
-pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../header.html --section-divs -t html5
-pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../header.html --section-divs -t html5
-pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../header.html -t html5
-pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../extra.html --H ../header.html t html5
-pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../extra.html -H ../header.html t html5
-pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../extra.html -H ../header.html -t html5
-pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../extra.html -H ../header.html -t html5
-pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../extra.html -H ../header.html -t html5
-pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../extra.html -H ../header.html -t html5
-pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../extra.html -H ../header.html -t html5
-pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../extra.html -H ../header.html -t html5
-pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../extra.html -H ../header.html -t html5
-pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../extra.html -H ../header.html -t html5
-pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../extra.html -H ../header.html -t html5
-pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../extra.html -H ../header.html -t html5
-pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../extra.html -H ../header.html -t html5
-pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../extra.html -H ../header.html -t html5
-echo 'pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../extra.html -H ../header.html -t html5' >> ~/stringForPandoc.txt 
-cat ~/stringForPandoc.txt 
-pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../extra.html -H ../header.html -t html5 -A ../footer.html 
-echo 'pandoc -s worksheet.md -o worksheet.html -c ../style.css --filter ../linkstohtml.py -B ../extra.html -H ../header.html -t html5 -A ../footer.html' > ~/stringForPandoc.txt 
-cat ~/stringForPandoc.txt 
-ls
-mkdir modelling-the-iss
-ls
-cd RPi_tech/
+rm example.py 
+rm flappy.py 
 ls
 cd ..
-cd RPi_learning/
 ls
-cp -r teach-resource-template/ model-ISS
+l
+ks
 ls
+cd images/
 ls
-rm data.csv 
+rm *
 ls
-python3 log_humidity.py
-exit
-cd ../..
+wget https://raw.githubusercontent.com/raspberrypilearning/getting-started-with-the-sense-hat/master/images/orientation.png
 ls
-cd model-ISS/
+cd ..
+git add --all ,
 git add --all .
-git commit -am 'humidity lesson'
+git commit -am 'started lesson'
 git push origin master
-cat /etc/wpa_supplicant/wpa_supplicant.conf 
-python3
-python3
-31.4
+emacs
+scrot
 ls
-cd resources_experiments/magic-8-ball/
+mkdir minecraft-pi-workshop
 ls
+ls | less
+l
 ls
-git remote set-url git@github.com:MarcScott/magic-8-ball.git
-git remote -v
-git remote set-url origin git@github.com:MarcScott/magic-8-ball.git
-git remote -v
-git commit -am 'update'
+boardtest.py                                                  snake2.py
+ls -l
+-rw-r--r--   1 pi             pi          178 2015-10-14 15:29 tnt.py
+mkdir minecraft-pi-workshop
+sudo apt-get install libpng12-dev
+ls
+mkdir raspi2png
+cd raspi2png/
+ls
+wget https://github.com/AndrewFromMelbourne/raspi2png/archive/master.zip
+ls
+unzip -j master.zip 
+ls
+cd ..
+ls
+rm *.png
+ls
+raspi2png/.
+ls
+cd ..
+raspi2png/raspi2png 
+./raspi2png/raspi2png 
+cd raspi2png/
+ls
+./raspi2png
+chmod +x raspi2png
+./raspi2png 
+ls
+raspi2png/.
+ls
+cd ..
+ls
+cat cheat-code-test.py 
+ls
+cd raspi2png/
+ls
+exit
+scp pi@192.168.1.136:~/*.png ./.
+scp pi@192.168.1.136:~/raspi2png/*.png ./.
+cd ..
+ls
+cd minecraft-workshop/
+ls
+mkdir images
+mv *.png images/.
+ls
+git add --all .
+git commit -am 'added images'
 git push origin master
 ls
 cd images/
 ls
-python3
+ls -alh
+du -h
+file *
+displaye create_new.png 
+display create_new.png 
+pip-3.2 install gpiozero
+sudo pip-3.2 install gpiozero
 ls
-rm Patch.html Patch.org 
+rm workshop.md
+rm scratch-gpio-cheatsheet.md 
 ls
-cd patch/
+git init
 ls
-emacs README.org
+ll
+ls -al
+sudo rm -r .git/
+git init
+git add --all .
+git commit -am 'initialised'
+git remote add origin git@github.com:raspberrypilearning/physical-computing-with-scratch.git
+git push -u origin master
+mv 2015-11-09-085853_1872x1168_scrot.png opening.png
+ls
+rm extras.md 
+rm hardware.md
+rm ks2.md 
+ls

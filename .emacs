@@ -3,14 +3,14 @@
 (package-initialize)
 ;;;; paths added to load-path
 
-(add-to-list 'load-path "~/.emacs.d/lisp/google-maps")
+
 (add-to-list 'load-path "~/.emacs.d/lisp")
 (add-to-list 'load-path "~/.emacs.d/elpa")
 (add-to-list 'load-path "~/.emacs.d/themes")
 (load-theme 'tango-dark t)
 
 (require 'package)
-(require 'google-maps)
+
 ;;Package managers
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
 			 ("marmalade" . "http://marmalade-repo.org/packages/")
@@ -25,6 +25,12 @@
 
 ;;;;Wrap lines
 (global-visual-line-mode t)
+
+;;;;4-space tabs
+;(setq-default indent-tabs-mode nil)
+;(setq-default tab-width 4)
+;(setq indent-line-function 'insert-tab)
+
 
 ;;;; Python settings to use Python 3
 (setq python-shell-interpreter "/usr/bin/python3")
@@ -117,9 +123,9 @@ STDERR with `org-babel-eval-error-notify'."
 (autoload 'markdown-mode "markdown-mode"
    "Major mode for editing Markdown files" t)
 (add-to-list 'auto-mode-alist '("\\.text\\'" . markdown-mode))
-(add-to-list 'auto-mode-alist '("\\.markdown\\'" . markdown-mode))
-(add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
-(add-hook 'markdown-mode-hook (lambda () (define-key markdown-mode-map (kbd "TAB") 'self-insert-command)))
+(add-to-list 'auto-mode-alist '("\\.markdown\\'" . gfm-mode))
+(add-to-list 'auto-mode-alist '("\\.md\\'" . gfm-mode))
+
 (add-to-list 'load-path
               "~/.emacs.d/plugins/yasnippet")
 (require 'yasnippet)

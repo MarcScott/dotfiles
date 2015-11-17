@@ -1,66 +1,27 @@
-;; -*- emacs-lisp -*- <15/09/14 11:37:52 /home/coding2learn/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <15/11/11 15:08:01 /home/coding2learn/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
 ;; You can delete it, forcing Tramp to reapply the checks.
 
-((["ssh" "bournetocode" "brgraweb" nil nil]
-  ("uname" "Linux 3.13.0-55-generic")
-  ("test" "test")
-  ("remote-path"
-   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
-  ("remote-shell" "/bin/sh")
-  ("locale" "LC_ALL=en_US.utf8")
-  ("file-exists" "test -e")
-  ("ls" "/bin/ls --color=never")
-  ("ls-dired" t)
-  ("stat" "\\stat")
-  ("id" "/usr/bin/id")
-  ("gid-integer" 1001)
-  ("readlink" "\\readlink")
-  ("gid-string" "bournetocode")
-  ("perl-file-spec" t)
-  ("perl-cwd-realpath" t)
-  ("perl" "\\perl")
-  ("uid-integer" 1001))
- (["ssh" "bournetoinvent" "brgraweb" nil nil]
-  ("uname" "Linux 3.13.0-55-generic")
-  ("test" "test")
-  ("remote-path"
-   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
-  ("remote-shell" "/bin/sh")
-  ("locale" "LC_ALL=en_US.utf8")
-  ("~" "/home/bournetoinvent")
-  ("file-exists" "test -e")
-  ("readlink" "\\readlink")
-  ("stat" "\\stat")
-  ("id" "/usr/bin/id")
-  ("gid-integer" 1002)
-  ("gid-string" "bournetoinvent")
-  ("perl-file-spec" t)
-  ("perl-cwd-realpath" t)
-  ("perl" "\\perl")
-  ("ls" "/bin/ls --color=never")
-  ("ls-dired" t))
- (["ssh" "pi" "192.168.0.164" nil nil]
-  ("uname" "Linux 3.18.11-v7+")
+((["ssh" "pi" "192.168.1.136" nil nil]
+  ("uname" "Linux 4.1.7-v7+")
   ("test" "test")
   ("remote-path"
    ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
   ("remote-shell" "/bin/sh")
   ("locale" "LC_ALL=C")
-  ("~" "/home/pi")
+  ("readlink" "\\readlink")
   ("file-exists" "test -e")
-  ("ls" "/bin/ls --color=never")
-  ("ls-dired" t)
   ("stat" "\\stat")
   ("id" "/usr/bin/id")
   ("gid-integer" 1000)
-  ("readlink" "\\readlink")
   ("gid-string" "pi")
+  ("ls" "/bin/ls --color=never")
+  ("uid-integer" 1000)
   ("perl-file-spec" t)
   ("perl-cwd-realpath" t)
   ("perl" "\\perl"))
- (["ssh" "pi" "192.168.1.91" nil nil]
-  ("uname" "Linux 4.1.6-v7+")
+ (["ssh" "pi" "192.168.1.99" nil nil]
+  ("uname" "Linux 4.1.7+")
   ("test" "test")
   ("remote-path"
    ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
@@ -74,7 +35,10 @@
   ("id" "/usr/bin/id")
   ("gid-integer" 1000)
   ("readlink" "\\readlink")
-  ("gid-string" "pi")
   ("perl-file-spec" t)
   ("perl-cwd-realpath" t)
-  ("perl" "\\perl")))
+  ("perl" "\\perl")
+  ("gid-string" "pi")
+  ("uid-integer" 1000))
+ (["ssh" "pi" "192.168.1.91" nil nil]
+  nil))
