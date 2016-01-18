@@ -1,128 +1,128 @@
 ls
-git clone git@github.com:raspberrypilearning/sense-hat-marble-maze.git
-mv sense-games-progression/marble-maze.py sense-hat-marble-maze/.
+cd ..
 ls
-cd sense-hat-marble-maze/
-l
+cd ..
 ls
-git add --all .
-git commit -am 'code finished'
-git push origin master
+sudo python test.py
+raspiconfig
+ls
+sudo python
+ls
+cd BrickPi_Python/
+ls
+cd Project_Examples/
+ls
+sudo python WiFi_Car.py 
+ls
+sudo python
+sudo python2
+ls
+cd home/pi/
+ls
+sudo python test.py 
+ls
+git clone https://github.com/DexterInd/BrickPi.git
+cd BrickPi_Python/
+ls
+cd ..
+ls
+cd BrickPi
+s
+ls
+cd Setup\ Files/
+ls
+sudo ./install.sh 
+./ins
+./install.sh
+chmod +x install.sh 
+sudo ./install.sh 
 cd ~/
 ls
-cd Resources/
 ls
-ls sense-hat-marble-maze/
-cp -r flappy-astronaut/* sense-hat-marble-maze/.
+sudo python test.py
+sudo python
+sudo python test.py 
+sudo python test.py 
+sudo python test.py 
+sudo python test.py 
+sudo python test.py 
+sudo python test.py 
+sudo python test.py 
+sudo python test.py 
+sudo python test.py 
+sudo python test.py
+sudo python test.py
+sudo python test.py
+sudo python test.py
+sudo python test.py
+sudo python test.py
+sudo python test.py
+sudo python test.py
+sudo python test.py
+sudo python test.py
+sudo python test.py
+sudo python test.py
+sudo python test.py
+sudo python test.py
+sudo python test.py
+sudo python test.py
+sudo python test.py
+sudo python test.py
+sudo python test.py
+sudo python test.py
+sudo python test.py
+sudo python test.py
+sudo python test.py
+sudo python test.py
+sudo python test.py
+sudo python test.py
+sudo python test.py
+sudo python test.py
+sudo python test.py
+sudo python test.py
+sudo python test.py
+None
+cd BrickPi_Python/Sensor_Examples/
 ls
-cd sense-hat-marble-maze/
-ls
-mv marble-maze.py code/.
-cd code/
-ls
-rm example.py 
-rm flappy.py 
-ls
+sudo python LEGO-UltraSonic_sensor_Test.py 
+sudo python LEGO-UltraSonic_sensor_Test.py 
+python LEGO-UltraSonic_sensor_Test.py 
+sudo python LEGO-UltraSonic_sensor_Test.py 
 cd ..
 ls
-l
-ks
+sudo python test.py
 ls
-cd images/
+sudo python test.py 
+sudo python test.py 
+cd ../
 ls
-rm *
+sudo python test.py
+sudo python test.py
+sudo python test.py
+sudo python test.py
+sudo python test.py
+lsusb
+lsusb
+lsusb
+sudo lsusb
+sudo lsusb
+sudo lsusb
+sudo lsusb
+sudo lsusb
+sudo lsusb
+raspivid -o - -t 99999 -hf -w 640 -h 360 -fps 25|cvlc -vvv stream:///dev/stdin --sout '#standard{access=http,mux=ts,dst=:8090}' :demux=h264
+Welcome to the Emacs shell
+raspivid -o - -t 0 -n | cvlc -vvv stream:///dev/stdin --sout '#rtp{sdp=rtsp://:8554/}' :demux=h264
 ls
-wget https://raw.githubusercontent.com/raspberrypilearning/getting-started-with-the-sense-hat/master/images/orientation.png
-ls
-cd ..
-git add --all ,
-git add --all .
-git commit -am 'started lesson'
-git push origin master
-emacs
-scrot
-ls
-mkdir minecraft-pi-workshop
-ls
-ls | less
-l
-ls
-boardtest.py                                                  snake2.py
-ls -l
--rw-r--r--   1 pi             pi          178 2015-10-14 15:29 tnt.py
-mkdir minecraft-pi-workshop
-sudo apt-get install libpng12-dev
-ls
-mkdir raspi2png
-cd raspi2png/
-ls
-wget https://github.com/AndrewFromMelbourne/raspi2png/archive/master.zip
-ls
-unzip -j master.zip 
-ls
-cd ..
-ls
-rm *.png
-ls
-raspi2png/.
-ls
-cd ..
-raspi2png/raspi2png 
-./raspi2png/raspi2png 
-cd raspi2png/
-ls
-./raspi2png
-chmod +x raspi2png
-./raspi2png 
-ls
-raspi2png/.
-ls
-cd ..
-ls
-cat cheat-code-test.py 
-ls
-cd raspi2png/
-ls
-exit
-scp pi@192.168.1.136:~/*.png ./.
-scp pi@192.168.1.136:~/raspi2png/*.png ./.
-cd ..
-ls
-cd minecraft-workshop/
-ls
-mkdir images
-mv *.png images/.
-ls
-git add --all .
-git commit -am 'added images'
-git push origin master
-ls
-cd images/
-ls
-ls -alh
-du -h
-file *
-displaye create_new.png 
-display create_new.png 
-pip-3.2 install gpiozero
-sudo pip-3.2 install gpiozero
-ls
-rm workshop.md
-rm scratch-gpio-cheatsheet.md 
-ls
-git init
-ls
-ll
-ls -al
-sudo rm -r .git/
-git init
-git add --all .
-git commit -am 'initialised'
-git remote add origin git@github.com:raspberrypilearning/physical-computing-with-scratch.git
-git push -u origin master
-mv 2015-11-09-085853_1872x1168_scrot.png opening.png
-ls
-rm extras.md 
-rm hardware.md
-rm ks2.md 
-ls
+raspistill -k
+raspivid -o - -t 0 -n | cvlc -vvv stream:///dev/stdin --sout '#rtp{sdp=rtsp://:8554/}' :demux=h264
+raspivid -o - -vf -hf -t 0 -w 600 -h 400 -fps 12 | cvlc -vvv stream:///dev/stdin --sout '#rtp{sdp=rtsp://:8080/}' :demux=h264 
+python3
+raspivid -t 0 -h 720 -w 1080 -fps 25 -hf -b 2000000 -o - | gst-launch-1.0 -v fdsrc ! h264parse !  rtph264pay config-interval=1 pt=96 ! gdppay ! tcpserversink host=192.168.1.50 port=5000
+sudo raspivid -t 0 -h 720 -w 1080 -fps 25 -hf -b 2000000 -o - | gst-launch-1.0 -v fdsrc ! h264parse !  rtph264pay config-interval=1 pt=96 ! gdppay ! tcpserversink host=192.168.1.50 port=5000
+top
+python3
+sudo python3
+/opt/vc/bin/raspivid -t 0 -hf -fps 20 -w 300 -h 300 -o - | gst-launch-1.0 fdsrc ! h264parse ! rtph264pay config-interval=1 pt=96 ! gdppay ! tcpserversink host=192.168.1.102 port=5000
+/opt/vc/bin/raspivid -t 0 -hf -fps 20 -w 300 -h 300 -o - | gst-launch-1.0 fdsrc ! h264parse ! rtph264pay config-interval=1 pt=96 ! gdppay ! tcpserversink host=192.168.1.102 port=5000
+/opt/vc/bin/raspivid -t 0 -hf -fps 20 -w 300 -h 300 -o - | gst-launch-1.0 fdsrc ! h264parse ! rtph264pay config-interval=1 pt=96 ! gdppay ! tcpserversink host=192.168.1.102 port=5000

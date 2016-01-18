@@ -1,0 +1,8 @@
+/ssh:pi@192.168.0.192:/home/pi/n_days_of_christmas2.py
+#_assh_bpi@192.168.0.192_b_ahome_api_an__days__of__christmas2.py#
+/ssh:pi@192.168.0.192:/home/pi/words.txt
+#_assh_bpi@192.168.0.192_b_ahome_api_awords.txt#
+/ssh:pi@192.168.0.192:/opt/Wolfram/WolframEngine/10.0/SystemFiles/Dictionaries/English/dictionary.txt
+#_assh_bpi@192.168.0.192_b_aopt_aWolfram_aWolframEngine_a10.0_aSystemFiles_aDictionaries_aEnglish_adictionary.txt#
+/home/coding2learn/Resources/n-days-of-christmas/code/n_days_of_christmas.py
+/home/coding2learn/Resources/n-days-of-christmas/code/#n_days_of_christmas.py#

@@ -1,0 +1,6 @@
+/ssh:pi@192.168.1.50:/home/pi/Documents/test-ev.py
+#_assh_bpi@192.168.1.50_b_ahome_api_aDocuments_atest-ev.py#
+/ssh:pi@192.168.1.50:/home/pi/Documents/snake2.py
+#_assh_bpi@192.168.1.50_b_ahome_api_aDocuments_asnake2.py#
+/ssh:pi@192.168.1.151:~/
+#_assh_bpi@192.168.1.151_b~_a#

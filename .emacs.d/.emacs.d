@@ -1,1 +1,0 @@
-/home/coding2learn/dotfiles/.emacs.d

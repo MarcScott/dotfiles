@@ -1,0 +1,6 @@
+/ssh:pi@192.168.1.102:/home/pi/test.py
+#_assh_bpi@192.168.1.102_b_ahome_api_atest.py#
+/ssh:pi@192.168.1.102:/home/pi/test2.py
+#_assh_bpi@192.168.1.102_b_ahome_api_atest2.py#
+/ssh:pi@192.168.1.102:/home/pi/BrickPi_Python/Sensor_Examples/LEGO-Motor_Test.py
+#_assh_bpi@192.168.1.102_b_ahome_api_aBrickPi__Python_aSensor__Examples_aLEGO-Motor__Test.py#

@@ -194,3 +194,21 @@ STDERR with `org-babel-eval-error-notify'."
 ;(setq indent-line-function 'insert-tab)
 
 
+;;Better Python
+;;From https://realpython.com/blog/python/emacs-the-best-python-editor/#.VlxbD6JR8_o.hackernews
+;; TODO - IPyton
+;; (defvar myPackages
+;;   '(better-defaults
+;;     elpy ;; add the elpy package
+;;     flycheck
+;;     material-theme
+;;     py-autopep8))
+
+(elpy-enable)
+
+(when (require 'flycheck nil t)
+  (setq elpy-modules (delq 'elpy-module-flymake elpy-modules))
+  (add-hook 'elpy-mode-hook 'flycheck-mode))
+
+(require 'py-autopep8)
+(add-hook 'elpy-mode-hook 'py-autopep8-enable-on-save)

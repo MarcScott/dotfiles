@@ -1,37 +1,19 @@
-;; -*- emacs-lisp -*- <15/11/11 15:08:01 /home/coding2learn/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <16/01/18 14:54:04 /home/coding2learn/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
 ;; You can delete it, forcing Tramp to reapply the checks.
 
-((["ssh" "pi" "192.168.1.136" nil nil]
-  ("uname" "Linux 4.1.7-v7+")
+((["ssh" "pi" "192.168.1.85" nil nil]
+  ("locale" "LC_ALL=C")
+  ("uname" "Linux 4.1.13+")
   ("test" "test")
   ("remote-path"
    ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
   ("remote-shell" "/bin/sh")
-  ("locale" "LC_ALL=C")
-  ("readlink" "\\readlink")
-  ("file-exists" "test -e")
-  ("stat" "\\stat")
-  ("id" "/usr/bin/id")
-  ("gid-integer" 1000)
-  ("gid-string" "pi")
-  ("ls" "/bin/ls --color=never")
-  ("uid-integer" 1000)
-  ("perl-file-spec" t)
-  ("perl-cwd-realpath" t)
-  ("perl" "\\perl"))
- (["ssh" "pi" "192.168.1.99" nil nil]
-  ("uname" "Linux 4.1.7+")
-  ("test" "test")
-  ("remote-path"
-   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
-  ("remote-shell" "/bin/sh")
-  ("locale" "LC_ALL=C")
   ("~" "/home/pi")
-  ("file-exists" "test -e")
   ("ls" "/bin/ls --color=never")
   ("ls-dired" t)
   ("stat" "\\stat")
+  ("file-exists" "test -e")
   ("id" "/usr/bin/id")
   ("gid-integer" 1000)
   ("readlink" "\\readlink")
@@ -40,5 +22,28 @@
   ("perl" "\\perl")
   ("gid-string" "pi")
   ("uid-integer" 1000))
- (["ssh" "pi" "192.168.1.91" nil nil]
+ (["ssh" "pi" "192.168.1.50" nil nil]
+  ("locale" "LC_ALL=C")
+  ("uname" "Linux 4.1.13-v7+")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("~" "/home/pi")
+  ("file-exists" "test -e")
+  ("readlink" "\\readlink")
+  ("stat" "\\stat")
+  ("id" "/usr/bin/id")
+  ("gid-integer" 1000)
+  ("gid-string" "pi")
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("ls" "/bin/ls --color=never")
+  ("uid-integer" 1000)
+  ("ls-dired" t)
+  ("tmpdir" "/ssh:pi@192.168.1.50:/tmp")
+  ("touch-t" t)
+  ("touch" "\\touch"))
+ (["ssh" "pi" "192.168.1.102" nil nil]
   nil))
